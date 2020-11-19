@@ -83,7 +83,7 @@ export default class About extends Component {
 
                             <div className="row">
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                                    <div className="project" style={{backgroundImage: 'url(images/duy.png)'}}>
+                                    <div className="project" style={{backgroundImage: 'url(images/duy.jpg)'}}>
                                         <div className="desc">
                                             <div className="con">
                                                 <h3><a href="work.html">Duy Vo</a></h3>
@@ -126,7 +126,7 @@ export default class About extends Component {
                                     </div>
                                 </div>
                                 <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                                    <div className="project" style={{backgroundImage: 'url(images/huy.png)'}}>
+                                    <div className="project" style={{backgroundImage: 'url(images/huy.jpg)'}}>
                                         <div className="desc">
                                             <div className="con">
                                                 <h3><a href="work.html">Huy Truong</a></h3>
