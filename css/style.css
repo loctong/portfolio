@@ -68,7 +68,7 @@ figure {
   background: #2c98f0; }
 
 #colorlib-page {
-  width: 80%;
+  width: 100%;
   overflow: hidden;
   position: relative; }
 
@@ -943,8 +943,8 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
-    opacity: 0;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.4); }
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s; }
@@ -1015,8 +1015,8 @@ body.offcanvas {
         .project .desc span {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }
-  .project:hover .desc {
-    opacity: 1; }
+  /*.project:hover .desc {*/
+  /*  opacity: 1; }*/
     .project:hover .desc h3 {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
@@ -1429,3 +1429,17 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+.project .desc {
+  padding: 10px;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.4); }
+.project .desc h3 {
+  font-style: 28px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  color: #000; }
+.project .desc span {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
